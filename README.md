@@ -1,4 +1,4 @@
-# Challenge-05
+# Challenge 5: Go Ahead and Jump!
 
 
 <h2>Preparando las herramientas necesarias.</h2>
@@ -150,10 +150,37 @@
   width = 60%
   height = 60%>
 
-
-
-
 ![GIF3](Challenge05/visualGif.gif)
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
 
+<h2>Añadiendo física al jugador</h2>
 
+<p>Para poder implementar el salto del jugador, tenemos que añadirle dos componentes nuevos para implementar su física: Un <code>Rigidbody</code> para que sea afectado por la gravedad y un <code>Capsule Collider</code> para evitar que traspase el suelo.</p>
+<p>Damos clic al jugador en la escena y nos dirigimos hacia <code>Add Component</code>. De aquí añadimos los dos componentes y ajustamos sus parámetros como se muestra a continuación:</p>
+
+<image src="img/01body1.png" width=80% height=80%>
+<image src="img/02body2.png" width=80% height=80%>
+
+<h2>Añadiendo el evento de <code>Jump</code></h2>
+
+<p>Nos dirigimos hacia el <code>Player Input</code> que ya habíamos creado y hacemos un clic derecho para añadir una nueva acción. A esta acción la llamamos <code>Jump</code> y le asignamos la barra de "Space" en el teclado. El resultado se debe ver así:</p>
+
+<image src="img/03event1.png" width=80% height=80%>
+
+<h2>Programando el comportamiento de <code>Jump</code> y <code>Look</code></h2>
+
+<p>Ahora, volvemos a dirigirnos hacia el jugador y le añadimos otro componente nuevo: un "script" al que llamaremos <code>PlayerJump</code>. Lo codificamos de la siguiente manera:</p>
+
+<image src="img/04script1.png" width=80% height=80%>
+<image src="img/06script3.png" width=80% height=80%>
+
+<p>Ahora añadimos otro "script" para hacer que el jugador pueda girar con el "mouse". Lo llamamos <code>PlayerLook</code> y lo programamos así:</p>
+
+<image src="img/05script2.png" width=80% height=80%>
+<image src="img/07script4.png" width=80% height=80%>
+
+<h2><code>Jump</code> y <code>Look</code> en acción</h2>
+
+![JumpAnim](img/jump.gif)
+![LookAnim](img/look.gif)
+<p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
