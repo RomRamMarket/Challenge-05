@@ -30,16 +30,16 @@
 <p>Utilizando <code>Game 3D Object</code> creamos un <code>Terrain</code>. Configuramos su ancho, alto y largo en 50.</p>
 <image
   src="Challenge05/terrainSet.png"
-  width = 60%
-  height = 60%>
+  width = 30%
+  height = 30%>
 
 
 
 <p>Buscamos cualquier textura que quisieramos para el terreno. </p>
 <image
   src="Challenge05/textura.png"
-  width = 60%
-  height = 60%>
+  width = 30%
+  height = 30%>
 
   
 <p>Le añadimos la textura al terreno.</p>
@@ -61,8 +61,8 @@
 <p>En el robot o seleccionamos <code>Add component</code> buscamos <code>Input player</code>.</p>
 <image
   src="Challenge05/addPlayerInputComp.png"
-  width = 60%
-  height = 60%>
+  width = 40%
+  height = 40%>
   
 <p>Al haber realizados los pasos anteriores le aparecerá un icono como el de la siguiente imagen dentro de su carpeta de <code>Assets</code>.</p>
 <image
@@ -122,8 +122,8 @@
 <p>Le añadimos un componenete que sea un <code>script</code> para poder decidir qué se va a realizar en cada acción. En nuestro caso lo llamamos <code>playerM</code>.</p>
 <image
   src="Challenge05/addPlayerM.png"
-  width = 60%
-  height = 60%>
+  width = 40%
+  height = 40%>
 
 ![GIF2](Challenge05/fastHorizontal.gif)
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
@@ -142,8 +142,8 @@
 <p>Para poder replicar lo que ya tenemos, pero con <code>Visual Graph</code> creamos un visual script y lo añadimos como componente del robot.</p>
 <image
   src="Challenge05/setVisual.png"
-  width = 60%
-  height = 60%>
+  width = 35%
+  height = 35%>
 
 <image
   src="Challenge05/visual.png"
