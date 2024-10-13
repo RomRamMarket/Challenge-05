@@ -92,7 +92,7 @@
   <p>En el siguiente GIF puede ver como al presionar <code>A</code> o <code>Left arrow</code> el robot se mueve hacia la izquierda y si se presionan  <code>D</code> o <code>Right arrow</code> el robot se mueve hacia la derecha. Importante notar que la velocidad con la que hace esto es una relativamente baja (ver valor en código proporcionado más adelante).</p>
 
 
-![GIF1](Challenge05/horizontal.gif)
+![GIF1](horizontal.gif)
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
 
 <h3>Creando acción de <code>Fast Horizontal Movement</code></h3>
