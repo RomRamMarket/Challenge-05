@@ -1,6 +1,11 @@
 # Challenge 5: Go Ahead and Jump!
 
+<h2> Matriz de acciones</h2>
 
+<image
+  src="acciones.png"
+  width = 40%
+  height = 40%>
 <h2>Preparando las herramientas necesarias.</h2>
 
 
