@@ -227,5 +227,6 @@ height=60%>
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
 
 <h2>Producto Final!<h2>
-![FinalP](Challenge 5/FinalP.gif)
+![FinalProduct](Challenge 5/FinalProduct.gif)
+
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
