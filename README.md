@@ -97,7 +97,7 @@
 
 <h3>Creando acción de <code>Fast Horizontal Movement</code></h3>
 
-<p>Ahora creamos la acción llamada <code>fastHorizontalMovement</code> que see basará en que cuando se presione <code>shift + A</code> o <code>shift + D</code> o <code>shift + left arrow</code> o <code>shift + right arrow</code> entonces la velocidad subirá a un valor determinado. Esta acción es de tipo <code>Button</code> pues solo queremos saber en que instantes se estan presionando las combinaciones de teclas antes menncionadas. </p>
+<p>Ahora creamos la acción llamada <code>fastHorizontalMovement</code> que see basará en que cuando se presione <code>shift + A</code> o <code>shift + D</code> o <code>shift + left arrow</code> o <code>shift + right arrow</code> entonces la velocidad subirá a un valor determinado. Esta acción es de tipo <code>Button</code> pues solo queremos saber en que instantes se estan presionando las combinaciones de teclas antes mencionadas. </p>
 
 
 <image
