@@ -95,6 +95,27 @@
 ![GIF1](horizontal.gif)
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
 
+<h3>Creando acción de <code>Vertical Movement</code></h3>
+
+<image
+src="Challenge 5/step1.png"
+width = 60%
+height = 60%>
+
+<p>Similar a la creacion de <code>Horizontal Movement</code>, crearemos una accion referente a nuestro movimiento Vertical dandole click a <code>+</code> y nombrandolo VerticalMovement con un Control Type editado de Vector 2.</p>
+
+<image
+src="Challenge 5/verticalA.png"
+width = 60%
+height = 60%>
+
+<p>Luego, crearemos un Composite para esta accion, esto es para poder decirle al juego cuales teclas reconocera como parte de nuestra accion: <code>+ > "Add Up/Down/Left/Right Composite</code>. Ya que tenemos nuestros composites, iremos donde los composites <code>Left y Right</code> y en la mano derecha tendremos una linea llamada <code>Path</code> y otra llamada <code>Composite Part</code>. Primero, vamos a: <code>Path > Up Arrow(Keyboard)</code> para decirle cual es la otra tecla que estara reconociendo para moverse hacia arriba y luego <code>Composite Part: Right > Composite Part : Up</code>. Luego, vamos a: <code>Path > Down Arrow(Keyboard)</code> para decirle cual es otra tecla que estara reconociendo para moverse abajo y luego <code>Composite Part: Left > Composite Part : Down</code>. Debe verse algo parecido a esto:</p>
+
+<image
+src="Challenge 5/verticalM.png"
+width=60%
+height=60%>
+
 <h3>Creando acción de <code>Fast Horizontal Movement</code></h3>
 
 <p>Ahora creamos la acción llamada <code>fastHorizontalMovement</code> que see basará en que cuando se presione <code>shift + A</code> o <code>shift + D</code> o <code>shift + left arrow</code> o <code>shift + right arrow</code> entonces la velocidad subirá a un valor determinado. Esta acción es de tipo <code>Button</code> pues solo queremos saber en que instantes se estan presionando las combinaciones de teclas antes mencionadas. </p>
@@ -128,14 +149,34 @@
 ![GIF2](Challenge05/fastHorizontal.gif)
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
 
+<h3>Creando acción de <code>Fast Vertical Movement</code></h3>
+<p>Similar al <code>Fast Horizontal Movement</code>, crearemos una accion nueva: <code>+ > Button</code> y luego le vamos a decir que la velocidad cambiara cuando el jugador presione el boton <code>SHIFT + (W | S | UpArrow | DownArrow)</code></p>
+
+<image
+src="Challenge 5/fastVerticA.png"
+width=60%
+height=60%>
+
+<p>Luego, crearemos los composite de este action cual sera <code>fastVerticalMovement + >  Add Binding with One Modifier (x4)</code> y esto creara 4 composites con un binding . Para todos los composites, el modifier sera el mismo, <code>Shift</code> mientras que los bindings seran dos de movimiento vertical hacia alfrente y dos para el delantero <code>Binding > Path:W | UpArrow (Forward)</code> y <code>Binding > Path:S | DownArrow(Backwards)</code>.</p>
+
+<image
+src="Challenge 5/fastVertic.png"
+width=60%
+height=60%>
 
 <h3>Código en C#</h3>
 <p>Vea código que es pertinente para realizar las acciones <code>HorizontalMovement</code> y <code>FastHorizontalMovement</code>. Note que los metodos comienzan con <code>On</code> esto es para que se activen cuando la acción estó siendo llamada. Los métodos usualmente tienen en su nombre: <code>OnActionName</code>. </p>
+
 <image
   src="Challenge05/horizontalScript.png"
   width = 60%
   height = 60%>
 
+<p>Terminando el codigo en C#, se le añade las funciones para movimiento vertical junto a las existentes horizontales:</p>
+<image
+src="Challenge 5/code.png"
+width=60%
+height=60%>
 
 <h3>Visual Graph</h3>
 
@@ -183,4 +224,8 @@
 
 ![JumpAnim](img/jump.gif)
 ![LookAnim](img/look.gif)
+<p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
+
+<h2>Producto Final!<h2>
+![FinalP](Challenge 5/FinalP.gif)
 <p>NOTA: Pudiera pasar que en algunos momentos se presenta poca fluidez en la grabación debido a problemas técnicos del equipo.</p>
